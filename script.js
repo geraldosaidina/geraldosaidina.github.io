@@ -3,6 +3,6 @@ function mostrarNome(){
     let input2 = document.getElementById("email")
     let nome = input.value;
     let email = input2.value;
-    document.getElementById("resultado").textContent = "Bem-vindo(a) ao site, " + nome + "." + email
+    document.getElementById("resultado").textContent = "Bem-vindo(a) ao site, " + nome + ". " + email
 
 }
